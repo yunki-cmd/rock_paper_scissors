@@ -12,7 +12,6 @@
   width: 1366px;
   height: 100%;
   color: white;
-  overflow: hidden;
   margin: auto;
 }
 @keyframes fondoColor {
