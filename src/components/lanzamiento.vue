@@ -14,19 +14,19 @@ export default {
   setup(props){
     const lanza = reactive({
       piedra : {
-        img: '/images/icon-rock.svg',
+        img: '/rock_paper_scissors/images/icon-rock.svg',
         color:'hsl(349, 71%, 52%)'
         },
       papel: {
-        img: '/images/icon-paper.svg',
+        img: '/rock_paper_scissors/images/icon-paper.svg',
          color:'hsl(230, 89%, 62%)'
          },
       scissors: {
-        img:'/images/icon-scissors.svg',
+        img:'/rock_paper_scissors/images/icon-scissors.svg',
          color:'hsl(39, 89%, 49%)'
          },
       interrogracion:{
-        img: "/images/interrogation.svg",
+        img: "/rock_paper_scissorsimages/interrogation.svg",
         color:'black'
       }
     })
